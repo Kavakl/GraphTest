@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 public class MatrixCountTest {
     @org.junit.Test
     public void countWayTest1() throws Exception {           //Проверка чтения из файла
-        MatrixReader mr = new MatrixReader();                
+        MatrixReader mr = new MatrixReader();
         MatrixCount m = new MatrixCount(mr.mReader());
         m.launch();
         assertEquals(m.count,1);
